@@ -1,0 +1,19 @@
+{
+  "name": "file-vault-backend",
+  "version": "1.0.0",
+  "description": "Backend for the file-vault app",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "João Estevinha",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.21.0",
+    "express-session": "^1.18.1",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "sqlite3": "^5.1.7"
+  }
+}
